@@ -1,0 +1,131 @@
+@font-face {
+    font-family: Quicksend_Regular;
+    src: url(../fonts/Quicksand-Regular.otf);
+   }
+@font-face {
+    font-family: Quicksend_Bold;
+    src: url(../fonts/Quicksand-Bold.otf);
+   }
+@font-face {
+    font-family: Quicksend_Light;
+    src: url(../fonts/Quicksand-Light.otf);
+   }
+body{
+    overflow-x: hidden;
+}
+.navbar-default .navbar-nav > li > a{
+    margin-top: 7px;
+    color: white;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: white;
+    background-color: #FC7D7D;
+    border-radius: 10px;
+}
+.navbar{
+    background-color: #FF5959;
+    border-color: #FF5959;
+    border-radius: 0px;
+    height: 10vh;
+}
+.navbar-brand{
+    margin-top: -12px;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+
+      width: 90vw;
+        height: 80vh;
+      margin: auto;
+  }
+.slider{
+    height: 100vh;
+    margin-top: 10vh;
+}
+.services{
+    font-family: Quicksend_Regular;
+    background-color: #E8E8E8;
+    margin-top: 100vh;
+    height: 100vh;
+}
+.otstup_service{
+    margin-top: 10vh;
+}
+.folio{
+    font-family: Quicksend_Regular;
+    color: white;
+    background-color: #FF5959;
+    height: 140vh;
+}
+.header_img1{
+    margin-top: 10vh;
+}
+.text_img{
+    margin-top: 10vh;
+}
+.team{
+    font-family: Quicksend_Regular;
+    background-color: #E8E8E8;
+    height: 100vh;
+}
+.otstup_team{
+    margin-top: 10vh;
+}
+.team_header{
+    font-family: Quicksend_Bold;
+    padding-bottom: 0px;
+}
+.team_section{
+    font-family: Quicksend_Light;
+    margin-top: 0px;
+}
+.team_footer{
+    font-family: Quicksend_Regular;
+}
+.blog{
+    color: white;
+    font-family: Quicksend_Regular;
+    height: 120vh;
+    background-color:#FF5959;
+}
+.blog a{
+    color: white;
+}
+.glyphicon-comment{
+    margin-left: 10vw;
+}
+.contact{
+    height: 90vh;
+    background-color: #E8E8E8;
+}
+.input_otstup{
+    width: 100%;
+
+    margin-top: 3vh;
+}
+
+.team_section1{
+    font-family: Quicksend_Light;
+    margin-top: 5vh;
+}
+.btn-danger{
+    border-color: #FF5959;
+    background-color: #FF5959;
+    border-radius: 8px;
+}
+.btn-danger1 {
+    border-color: #FF5959;
+    border-width: 2px;
+}
+.arrow{
+    height: 20vh;
+    width: 20vw;
+}
+footer{
+    height: 10vh;
+    background-color:#FF5959;
+    color: white;
+    font-family: Quicksend_Regular;
+}
